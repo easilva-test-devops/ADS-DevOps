@@ -22,3 +22,10 @@ elif op == 9:
 else:
     print("\n\nOpção incorreta!")
 
+print('(1) Incluir.')
+print('(2) Listar.')
+print('(3) Atualizar.')
+print('(4) Excluir.')
+print('(9) Voltar ao menu principal.\n')
+
+
