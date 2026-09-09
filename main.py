@@ -27,5 +27,21 @@ print('(2) Listar.')
 print('(3) Atualizar.')
 print('(4) Excluir.')
 print('(9) Voltar ao menu principal.\n')
+acao = int(input('Informe a ação desejada: '))
+
+if acao == 1:
+    print("\n\n===== INCLUSÃO =====\n")
+elif acao == 2:
+    print("\n\n===== LISTAGEM =====\n")
+elif acao == 3:
+    print("\n\n===== ATUALIZAÇÃO =====\n")
+elif acao == 4:
+    print("\n\n===== EXCLUSÃO =====\n")
+elif acao == 9:
+    pass
+else:
+    print("\n\nOpção incorreta!")
+
+print("Finalizando aplicação...")
 
 
