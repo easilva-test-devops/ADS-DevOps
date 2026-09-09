@@ -1,0 +1,7 @@
+print('----- MENU PRINCIPAL -----\n')
+print('(1) Gerenciar estudantes.')
+print('(2) Gerenciar professores.')
+print('(3) Gerenciar disciplinas.')
+print('(4) Gerenciar turmas.')
+print('(5) Gerenciar matrículas.')
+print('(9) Sair.\n')
