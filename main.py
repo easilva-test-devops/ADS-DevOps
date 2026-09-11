@@ -43,5 +43,3 @@ else:
     print("\n\nOpção incorreta!")
 
 print("Finalizando aplicação...")
-
-

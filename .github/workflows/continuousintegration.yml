@@ -11,4 +11,4 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v6
       - name: pylinter
-        uses: programmingwithalex/pylinter@v1.4.3
+        uses: prjogrammingwithalex/pylinter@v1.4.3
