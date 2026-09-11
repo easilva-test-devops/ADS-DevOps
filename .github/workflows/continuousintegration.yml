@@ -1,0 +1,14 @@
+name: Continuous Integration
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v6
+      - name: pylinter
+        uses: programmingwithalex/pylinter@v1.4.3
