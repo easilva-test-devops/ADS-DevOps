@@ -11,8 +11,8 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v6
 
-      - name: Simulacao Continuous Delivery
-      - uses: actions/upload-artifact@v7
+      - name: SimulacaoContinuousDelivery
+        uses: actions/upload-artifact@v7
         with:
           name: projetozip.zip
           path: |
