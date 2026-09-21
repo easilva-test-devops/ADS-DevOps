@@ -24,3 +24,5 @@ def test_acao_operacao_inclusao():
 def test_acao_operacao_opcao_invalida():
     resultado = validar_acao_operacao(7)
     assert resultado == "Opção incorreta!"
+
+    
